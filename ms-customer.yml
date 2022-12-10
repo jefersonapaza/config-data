@@ -1,2 +1,9 @@
 server:
   port: 10000
+spring:
+  data:
+    mongodb:
+      port: 27019
+      auto-index-creation: 'true'
+      database: bankaccountdb
+      host: localhost
