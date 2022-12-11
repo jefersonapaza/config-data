@@ -1,11 +1,21 @@
+#Puerto API
 server:
   port: 8090
-      
+#Cliente Eureka      
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
+#Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always      
+#Gateway
 spring:
   cloud:
     gateway:
