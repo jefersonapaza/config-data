@@ -5,7 +5,7 @@ server:
 spring:
   data:
     mongodb:
-      port: 27019
+      port: 27017
       auto-index-creation: 'true'
       database: customerdb
       host: localhost
