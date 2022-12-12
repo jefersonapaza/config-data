@@ -7,7 +7,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://ms-discovery:8761/eureka
   server:
     waitTimeInMsWhenSyncEmpty: 0
 #Actuator
