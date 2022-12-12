@@ -9,6 +9,10 @@ spring:
       auto-index-creation: 'true'
       database: creditdb
       host: mongodb
+  application:
+    name: ms-credit
+  config:
+    import: optional:http://config-server:8888/
 #Cliente Eureka
 eureka:
   client:

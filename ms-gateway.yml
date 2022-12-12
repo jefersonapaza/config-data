@@ -17,6 +17,10 @@ management:
       show-details: always      
 #Gateway
 spring:
+  application:
+    name: ms-gateway
+  config:
+    import: optional:http://config-server:8888/
   cloud:
     gateway:
       discovery:

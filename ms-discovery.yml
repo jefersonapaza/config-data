@@ -1,6 +1,12 @@
 #Puerto API
 server:
   port: 8761
+#  
+spring:
+  application:
+    name: ms-discovery
+  config:
+    import: optional:http://config-server:8888/  
 #Eureka
 eureka:
   client:
