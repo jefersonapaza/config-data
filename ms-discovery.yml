@@ -4,9 +4,7 @@ server:
 #  
 spring:
   application:
-    name: ms-discovery
-  config:
-    import: optional:http://config-server:8888/  
+    name: ms-discovery 
 #Eureka
 eureka:
   client:
